@@ -60,5 +60,6 @@ VALUES ('120.719.654-11','Fulano de Tal','01/05/95',28,'M','(61)99999-9999','(19
 'fulano@email.com','fulano.tal@brh.com','Filha Beltrana de Tal','Esposa Cicrana de Tal',
 'Rua de Tal','Algum','Piracicaba','SP','12454-001','TI');
 
-SELECT * FROM tb_bi ORDER BY departamento ASC;
+SELECT departamento, CPF, COLABORADOR, DATA_NASCIMENTO,idade,sexo,telefone_celular,telefone_residencial,email_pessoal,
+email_trabalho,dependente1,dependente2,endereco,bairro,cidade,estado,cep FROM tb_bi ORDER BY departamento ASC;
 
